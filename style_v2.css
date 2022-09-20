@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+#map {
+    height: 100vh;
+    width: 100vw;
+}
+
+.branch-list {
+    width: 25vw;
+    height: 100vh;
+    overflow: auto;
+    background: whitesmoke;
+}
+
+.leaflet-popup-content-wrapper {
+    padding: 0;
+    overflow: hidden;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+    margin: 0;
+}
+
+.leaflet-popup-content-wrapper h4 {
+    padding: 16px;
+    background: #466799;
+    color: #fff;
+    font-size: 16px;
+}
+
+.leaflet-popup-content-wrapper p {
+    padding: 0 16px;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content .phone-number {
+    padding: 16px;
+    padding-top: 0;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content .phone-number a {
+    color: #466799;
+    font-size: 14px;
+}
+
+.branch-list .heading {
+    background: #466799;
+    color: #fff;
+}
+
+.branch-list .heading h3 {
+    padding: 1rem;
+}
+
+.branch-list ul.list {
+    padding: 0 1rem;
+    list-style-type: none;
+}
+
+.branch-list .division {
+    margin: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 1rem;
+    text-decoration: none;
+    font-size: 20px;
+    color: green;
+    font-weight: 1000;
+
+}
+
+.branch-list .branch-item {
+    margin: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 1rem;
+}
+
+.branch-list li:last-child .branch-item {
+    border: none;
+}
+
+.branch-list .branch-item a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #466799;
+    font-weight: 700;
+}
